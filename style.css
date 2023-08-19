@@ -1,6 +1,6 @@
 .story {
     border:solid;
-    width:fit-content;
+    width:min-content;
     height:calc(max(100px, 30vmin));
     font-size: calc(max(20px, 3vmin));
     margin:2vmin;
@@ -19,9 +19,9 @@
 .story:hover {
     background-color: black;
     color:white;
-    width:fit-content;
+    width:max-content;
     rotate: 2deg;
-    font-size: calc(max(30px, 5vmin)) ;
+    font-size: calc(max(25px, 4vmin)) ;
 }
 .story:active {
     background-color: black;
