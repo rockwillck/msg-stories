@@ -2459,6 +2459,10 @@ const stories = {
     ]
 }
 
+if (window.location.pathname == "/index.html") {
+    window.location.href = "../"
+}
+
 function get_chain(string) {
     peeps = []
 
