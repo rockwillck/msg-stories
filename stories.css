@@ -1,0 +1,72 @@
+.phone {
+    height:100vh;
+    width:calc(min(100vw, 60vh));
+    border-left:solid;
+    border-right:solid;
+    border-width: 2px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    translate: -50% -50%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: scroll;
+    padding-bottom: 3vh;
+    box-sizing: border-box;
+}
+.msgContainerRight {
+    display: flex;
+    justify-content: flex-end;
+
+}
+.msg {
+    padding:1vmin;
+    margin: 1vmin 1vmin 0vmin 1vmin;
+    border-radius: 2vmin;
+    width:fit-content;
+    max-width: 70%;
+}
+.msgContainerLeft {
+    display: flex;
+    justify-content: flex-start;
+
+}
+.msgRight {
+    background-color: rgb(0, 145, 255);
+    color:white;
+}
+.msgLeft {
+    background-color: rgb(202, 202, 202);
+    color:black;
+}
+
+.recipient {
+    background-color: rgb(202, 202, 202);
+    height:10vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:sticky;
+    top:0;
+}
+.recipientProfile {
+    width:5vmin;
+    height:5vmin;
+    background-color: gray;
+    border-radius: 100%;
+    margin:1vmin;
+}
+.recipientContainer {
+    text-align: center;
+}
+
+.timeskip {
+    text-align: center;
+    color: rgb(202, 202, 202);
+    font-size: small;
+}
+
+.end {
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
