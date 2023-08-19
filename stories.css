@@ -1,8 +1,7 @@
 .phone {
     height:100vh;
     width:calc(min(100vw, 60vh));
-    border-left:solid;
-    border-right:solid;
+    border:solid;
     border-width: 2px;
     position:absolute;
     left:50%;
@@ -31,16 +30,20 @@
 
 }
 .msgRight {
-    background-color: rgb(0, 145, 255);
-    color:white;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    border:solid;
 }
 .msgLeft {
-    background-color: rgb(202, 202, 202);
-    color:black;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    border:solid;
+    border-color: black;
 }
 
 .recipient {
-    background-color: rgb(202, 202, 202);
+    background-color: rgb(0, 0, 0);
+    color:white;
     height:10vh;
     display:flex;
     justify-content: center;
@@ -51,7 +54,7 @@
 .recipientProfile {
     width:5vmin;
     height:5vmin;
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
     border-radius: 100%;
     margin:1vmin;
 }
@@ -61,7 +64,7 @@
 
 .timeskip {
     text-align: center;
-    color: rgb(202, 202, 202);
+    color: rgb(0, 0, 0);
     font-size: small;
 }
 
