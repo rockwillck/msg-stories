@@ -2510,12 +2510,13 @@ function register_story(obj, container) {
     let storyIndex = allStories.length - 1
     storyCard.addEventListener(("click"), (e) => {
         history.replaceState({}, `${obj.people[0]} and ${obj.people[1]}`, window.location + `?story=${storyIndex}`)
-        load_story(`/story.html?story=${JSON.stringify(obj)}`)
+        load_story(`${window.location.origin + window.location.pathname
+        }story.html?story=${JSON.stringify(obj)}`)
     })
     container.appendChild(storyCard)
 
     if (new URLSearchParams(window.location.search).has("story") && parseInt(new URLSearchParams(window.location.search).get("story")) < allStories.length) {
-        load_story(`/story.html?story=${JSON.stringify(allStories[parseInt(new URLSearchParams(window.location.search).get("story"))])}`)
+        load_story(`${window.location.origin + window.location.pathname}/story.html?story=${JSON.stringify(allStories[parseInt(new URLSearchParams(window.location.search).get("story"))])}`)
     }
 }
 
