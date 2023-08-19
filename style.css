@@ -1,6 +1,6 @@
 .story {
     border:solid;
-    width:calc(max(100px, 30vmin));
+    width:calc(max(100px, 30vmin, fit-content));
     height:calc(max(100px, 30vmin));
     font-size: calc(max(20px, 3vmin));
     margin:2vmin;
