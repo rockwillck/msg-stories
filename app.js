@@ -2556,4 +2556,9 @@ Object.keys(stories).forEach((genre) => {
     }
 })
 
-console.log()
+function reset() {
+    document.getElementById("pc").style.zIndex = -1
+    document.getElementById("pc").style.opacity = 0
+    document.getElementById("phone").style.transform = "scale(0)"
+    history.replaceState({}, `msg stories`, "./")
+}

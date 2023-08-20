@@ -98,4 +98,13 @@ body {
     box-shadow: 0.5vmin 0.5vmin 0px black;
     z-index: 1000;
     background-color: white;
+    transition: 0.2s;
+}
+.back:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+.back:active {
+    box-shadow: 0 0 0;
 }
