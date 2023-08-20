@@ -1,0 +1,27 @@
+body {
+    position: absolute;
+    left:50%;
+    top:50%;
+    translate:-50% -50%;
+}
+
+a {
+    display:block;
+    padding:3vmin;
+    margin: 5vmin;
+    font-size:xx-large;
+    background-color: white;
+    border: solid;
+    color: black;
+    text-decoration: none;
+    box-shadow: 1vmin 1vmin 0px black;
+    transition: 0.2s;
+}
+a:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+a:active {
+    box-shadow: 0 0 0;
+}
