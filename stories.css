@@ -1,6 +1,7 @@
 .phone {
     height:100vh;
-    width:calc(min(100vw, 60vh));
+    width:100vw;
+    max-width: 60vh;
     border:solid;
     border-width: 2px;
     position:absolute;

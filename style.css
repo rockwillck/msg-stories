@@ -1,14 +1,15 @@
 .story {
     border:solid;
     width:min-content;
-    height:calc(max(100px, 30vmin));
-    font-size: calc(max(20px, 3vmin));
+    height:30vmin;
+    min-height:100px;
+    font-size: max(20px, 3vmin);
     margin:2vmin;
     display:flex;
     justify-content: center;
     align-items: center;
     transition:0.2s;
-    padding:calc(max(30px, 4.5vmin));
+    padding:max(30px, 4.5vmin);
     box-sizing: border-box;
     rotate: 0deg;
     color:black;
@@ -21,7 +22,7 @@
     color:white;
     width:max-content;
     rotate: 2deg;
-    font-size: calc(max(25px, 4vmin)) ;
+    font-size: max(25px, 4vmin) ;
 }
 .story:active {
     background-color: black;
@@ -39,16 +40,16 @@
     box-shadow: 2vmin 2vmin 0px black;
 }
 h1 {
-    font-size: calc(max(50px, 8vh));
+    font-size: max(50px, 8vh);
 }
 h2 {
-    font-size: calc(max(40px, 6.4vh));
+    font-size: max(40px, 6.4vh);
 }
 h3 {
-    font-size: calc(max(30px, 4.8vh));
+    font-size: max(30px, 4.8vh);
 }
 sub {
-    font-size: calc(max(30px, 5vh));
+    font-size: max(30px, 5vh);
 }
 hr {
     margin:50px
