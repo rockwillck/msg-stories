@@ -62,13 +62,19 @@ body {
 }
 
 .readablePhone {
-    width:90vmin;
-    height: 90vmin;
     padding: 1vmin;
     border:solid;
     background-color: white;
     box-shadow: 2vmin 2vmin 0px black;
     transform: scale(0);
+    height:90vh;
+    width:70vw;
+}
+@media (orientation: landscape) {
+    .readablePhone {
+        width:90vmin;
+        height: 90vmin;
+    }
 }
 .phoneContainer {
     width:100%;
