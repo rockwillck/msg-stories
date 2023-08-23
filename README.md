@@ -1,5 +1,6 @@
-# msg stories
-(an AI experiment)
+![msg stories](https://docs.google.com/drawings/d/e/2PACX-1vQLOo1p7K6zdGbUDlpC5aU6lNgXD-QJWY1fhAxFY6wU91ZYdJ_Eh75BlBq2Qjc2suAchlipSrnm9k3k/pub?w=576&h=144 "MSG STORIES")  
+=
+An AI experiment
 ## The What
 *msg stories* is an experiment: given the simplest possible constraints, can a LLM write in a distinctly creative and human way?  
 LLMs like ChatGPT are, obviously algorithmic and therefore not truly intelligent. And that shows in their writing - it's very obvious when something has been written by an AI.  
